@@ -21,9 +21,12 @@ button {
 }
 .letter {
   display: inline-block;
+  transition: all 1s;
 }
 .animate {
-  animation: flip .5s ease-in-out;
+  color: blue;
+  text-shadow: 2px 2px 4px red;
+  font-size: 100px;
 }
 
 @keyframes flip {
